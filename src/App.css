@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app{
+  color: black;
+}
+
+.section-1{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./sources/bg-main-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.bg-d{
+  width: 95.5%;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+.bg{
+  width: 170px;
+  margin-top: 120px;
+}
+
+.service{
+  margin-top: 357px;
+  color: black;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.about-us-buttom{
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 460px;
+  padding-right: 15px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.dots{
+  margin-top: 350px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.dots span{
+  width: 11px;
+  height: 11px;
+  border: solid 1px white;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.dots span:hover{
+  background-color: white;
+}
+
+.white-title{
+  color: white;
+}
+
+.about-us{
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+/* section 2 */
+.section-2{
+  width: 100%;
+  height: fit-content;
+  background: linear-gradient(to bottom, rgba(0, 0, 0), rgba(0, 0, 0, 0.7)), url('./sources/bg-section-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.line-1{
+  padding-bottom: 81px;
+  border-bottom: 1px solid white;
+}
+
+.our-service{
+  color: white;
+  font-size: 75px;
+  font-weight: 300;
+  line-height: 0.9;
+  text-transform: uppercase;
+  margin-top: 337px;
+}
+
+.work{
+  color: white;
+  margin-top: 337px;
+  font-size: 21px;
+}
+
+.view{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 337px;
+  padding-bottom: 81px;
+}
+
+.view-all{
+  color: white;
+  font-size: 15px;
+  margin-right: 17px;
+  margin-top: 55px;
+  text-transform: uppercase;
+  font-weight: 100px;
+}
+
+.line-2{
+  padding-top: 46px;
+  padding-bottom: 34px;
+  border-bottom: solid 1px white;
+}
+
+.sub-title{
+  color: white;
+  font-size: 26px;
+  font-weight: 400px;
+}
+
+.body{
+  color: white;
+}
+
+.learn-more{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.add{
+  font-size: 60px;
+  margin-left: 20px;
+  font-weight: lighter;
+  color: white;
+}
+
+.images{
+  display: flex;
+}
+
+.last-line{
+  padding-top: 46px;
+  padding-bottom: 34px;
+}
+
+
+/* section 3 */
+.section-3{
+  width: 100%;
+  height: fit-content;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.work-flow{
+  font-size: 75px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.vector-4{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.arrow{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.customer{
+  color: #B6B6B6;
+}
+
+.portfolio li{
+  list-style-type: decimal;
+}
+
+/* section 5 */
+.section-5{
+  width: 100%;
+  height: 90vh;
+  padding-left: 60px;
+  padding-right: 60px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0), rgba(0, 0, 0, 0.1)), url('./sources/mask.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* section 6 */
+.section-6{
+  width: 100%;
+  height: fit-content;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+/* section 7 */
+.section-7{
+  width: 100%;
+  height: fit-content;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 78px;
+  background-color: black;
+  padding-bottom: 40px;
+}
+
+.box{
+  border: 1px solid #E5E5E5;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-8{
+  width: 100%;
+  height: fit-content;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 78px;
+  padding-bottom: 40px;
+}
+
+.social-media-2 {
+  display: flex;
+  margin-top: 40px;
+}
+
+.social-media-2 p{
+  margin-right: 10px;
+}
+
+.form{
+  width: 500px;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.form input{
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid white;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.section-9{
+  width: 100%;
+  height: fit-content;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 78px;
+  padding-bottom: 40px;
+  background-color: #FFFE55;
+}
+
+.policy{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding-top: 15px;
+  margin-top: 80px;
+}

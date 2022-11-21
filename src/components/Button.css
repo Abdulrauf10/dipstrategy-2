@@ -1,0 +1,11 @@
+.button{
+  width: 170px;
+  height: 40px;
+  color: black;
+  background-color: #ffe55f;
+  border: none;
+}
+
+.expand{
+  margin-left: 20px;
+}

@@ -1,0 +1,41 @@
+.navbars{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.white-logo{
+  width: 224px;
+  height: 75px;
+  margin-top: 35x;
+}
+
+.right-side ul{
+  display: flex;
+  text-transform: uppercase;
+}
+
+.right-side ul li{
+  list-style: none;
+  margin-top: 62px;
+  color: white;
+  margin-right: 30px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#phone{
+  margin-top: 52px;
+  color: black;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+}
+
+.right-side ul li:hover{
+  color: #FFFE55;
+}
